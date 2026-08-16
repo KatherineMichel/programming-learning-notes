@@ -6,6 +6,8 @@ Inside of a Class, group data (properties) and behavior (methods) together.
 
 The object protects its internal state, and you interact with it by calling its methods.
 
+You have to pass the parameters into a function. In a method inside of a class, you do not have to pass in the parameters, because they are attached to the instance (self).  
+
 Encapsulation: object, data, methods
 
 ### Inheritance
