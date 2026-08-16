@@ -6,17 +6,19 @@ Inside of a Class, group data (properties) and behavior (methods) together.
 
 The object protects its internal state, and you interact with it by calling its methods.
 
+Encapsulation: object, data, methods
+
 ### Inheritance
 
 Benefits
 * Bounded context
 * Data and behavior are together
 
-Method Resolution Order
+Layers
+* Method Resolution Order
+* Avoid multiple layers of inheritance
 
-Avoid multiple layers of inheritance
-
-### Functional Programming
+## Functional Programming
 
 Functional world: no object
 
@@ -24,18 +26,24 @@ Pure functional programming languages: Haskell, Elm
 
 These languages are designed to be good for composing functions. 
 
+
 * Abstraction
 * Polymorphism
-* Encapsulation
 * Dependency injection
 
-### Private Methods versus Public Methods
+## Private Methods versus Public Methods
+
+Both private and public methods are inside of the class. 
+
+The private method is only used within the class by other method(s) in the class. A public method can be used outside of the class. 
 
 Underscore, name mangling
 
-### Class Method Versus Static Method
+Exposes the internal dictionary used to store the writable attributes of the object named obj: obj.__dict__
 
-### Best
+## Class Method Versus Static Method
+
+## Best
 
 There aren't that many clear 'this is always better or worse situations.' 
 
